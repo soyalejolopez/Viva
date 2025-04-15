@@ -1,43 +1,46 @@
 ---
-title: Targeting and excluding items in a Viva Glint survey 
-description: Viva Glint surveys can target or exclude items based on predefined Distribution Lists. 
-ms.author: SarahBerg
-author: SarahAnneBerg
-manager: elizapo
+title: Target or exclude items in a Viva Glint survey
+description: Microsoft Viva Glint Administrators can use Distribution Lists or User Roles to target survey items or exclude items for specific groups of users.
+ms.author: aweixelman
+author: AliciaWeixelman
+manager: melissabarry
 audience: admin
 f1.keywords: NOCSH
-keywords: tenant, viva glint tenant
+keywords: target question, exclude question, target survey items
 ms.collection: 
  - m365initiative-viva
  - selfserve
 search-appverid: MET150
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 06/20/2023
+ms.date: 02/13/2025
 ---
 
-# Targeting and excluding items in a Viva Glint survey
+# Target or exclude items in a Viva Glint survey
 
-Survey items and questions can be targeted to a specific Distribution List.
+Microsoft Viva Glint Administrators can use Distribution Lists or User Roles to target survey items or exclude items for specific groups of users.
 
-## How do I target an individual item?
+To add roles or lists to target and exclude questions:
 
-From the *Questions* page within Program Summary, follow this procedure:
+1. Go to **Configuration** and select **Survey Programs** in **Surveys**.
+2. Select and survey and go to the **Questions** section.
+3. Find the question to target or exclude and hover on the far right to select the **ellipsis**.  
+4. In the dropdown menu, select **Edit Targeting** to reveal the Targeting edit pane.
+   
+   :::image type="content" source="../../media/glint/setup/edit-targeting2.png" alt-text="Screenshot of the question dropdown menu with the Edit Targeting option.":::
+   
+5. In the **Targeted lists included** section, select the **Search for or select a custom target...** field to view all of your organization's Distribution Lists and User Roles.
 
-First, select the three dots to the right of the question text and select **Edit Targeting** from the dropdown: 
+   :::image type="content" source="../../media/glint/setup/targeting-edit-pane.png" alt-text="Screenshot of the Targeting edit pane with User Roles and Distribution Lists available to select for targeting.":::
+   
+6. To target the question to specific users, select one or multiple lists or roles.
+7. In the **Targeted lists excluded** section, select the **Search for or select a custom target...** field and select lists or roles to exclude from this question, if needed.
+8. Select **Save Changes**.
 
-1. Select the question for targeting to activate the three vertical ellipses to the right of that question.  
-2. Select **Edit Targeting** to reveal the Targeting slider.
-   :::image type="content" source="../../media/glint/setup/edit-targeting.png" alt-text="Screenshot that displays Viva Glint's Questions page." lightbox="../../media/glint/setup/edit-targeting.png":::
-   :::image type="content" source="../../media/glint/setup/targeting-viva.png" alt-text="Screenshot that displays the targeting page of Viva Glint." lightbox="../../media/glint/setup/targeting-viva.png":::
-3. In the *Targeted lists included* section, if you have already set up your Distribution List, it will appear in a dropdown list from the Search bar. Select all the distribution lists or manually select only those you want to receive that survey item. More than one distribution list can be selected. As you select lists, they'll be added above the Search bar.
-4. Select **Save Changes**.
+## Create a new Distribution List or User Role
 
-## How do I exclude an individual item?
+If existing lists and roles don't include the right users, create a new Distribution List or User Role: 
 
-Use the same method as above to exclude groups, using the Targeted lists excluded section in the **Targeting** slider window.
-
-## Create a new Distribution List 
-
-You can create a new Distribution List, if the one you need doesn't appear in the Targeting slider window. [Follow these instructions to create a new Distribution List](https://go.microsoft.com/fwlink/?linkid=2230917).
+- [Create a new Distribution List](set-up-distribution-lists.md).
+- [Create a new User Role](set-up-user-roles.md).

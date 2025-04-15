@@ -7,8 +7,8 @@ author: michellehu-msft
 manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
-ms.date: 06/19/2023
-ms.topic: article
+ms.date: 03/13/2025
+ms.topic: how-to
 ms.service: viva-pulse
 ms.localizationpriority: medium
 ms.collection: m365initiative-viva-pulse  
@@ -29,7 +29,7 @@ The expiration date is shown in the trial subscription details page within the M
 
 ## Activate a trial
 
-The Microsoft 365 Global Admin or the Billing Admin can activate the trial and assign licenses.
+The Billing Admin can activate the trial and assign licenses.
 
 When you initiate a trial, you need to:
 

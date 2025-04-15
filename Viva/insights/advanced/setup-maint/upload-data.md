@@ -1,10 +1,10 @@
 ---
-ms.date: 06/16/2023
+ms.date: 03/25/2025
 title: Upload organizational data during setup
 description: Get a quick overview of how to upload organizational data as part of setup
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
@@ -17,8 +17,6 @@ audience: Admin
 # Upload organizational data
 
 ![insights admin](../images/applies-to-insights-admin.png) *Applies to: Insights Administrator*
-
-:::image type="content" source="../images/setup-upload-1.png" alt-text="Image alt text." lightbox="../images/setup-upload-1.png":::
 
 Now that you've set up the advanced insights app, you're ready to start bringing in data so analysts can run analyses and leaders can view organization insights.
 

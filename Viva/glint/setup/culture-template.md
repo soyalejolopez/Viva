@@ -6,32 +6,30 @@ author: JudyWeiner
 manager: MelissaBarry
 audience: admin
 f1.keywords: NOCSH
-keywords: 
+keywords: measure culture, culture survey questions, culture survey items, cultural transformation
 ms.collection:  
 - m365initiative-viva
 - selfserve 
 search.appverid: MET150 
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-glint
 ms.localizationpriority: high
-ms.date: 05/01/2024
+ms.date: 10/17/2024
 ---
 
 # Use the Viva Glint Culture Survey template
 
-Recognizing that most executives and leaders realize the importance and impact of culture on business outcomes, Glint offers a Culture Survey template as part of its library of recurring engagement surveys. The Glint Culture Survey measures the facets of culture Viva People Science knows to be important predictors of business performance and engagement. The Culture Survey is available in all languages supported by Glint.
+A Culture Survey program is designed to assess and measure the beliefs, values, norms, and overall work culture of an organization. It helps companies understand the attitudes and perceptions of their employees, identify areas for improvement, and align the culture with the company’s strategic goals. It can foster a positive work environment, enhance employee satisfaction and retention, and ultimately contribute to the organization’s success. Culture is driven by mindsets, values, and shared beliefs. Culture influences how decisions are made and how people behave. It shapes experiences and determines how work gets done.
 
-## How Viva Glint defines culture and why culture is important
+Glint offers a Culture Survey template as part of its library of recurring engagement surveys. The Glint Culture Survey measures the facets of culture Viva People Science knows to be important predictors of business performance and engagement. The Culture Survey is available in all languages supported by Glint.
 
-Glint research backs the fact that culture is driven by mindsets, values and shared beliefs. These components influence how decisions get made, how people behave, shape our experiences, and determine how work gets done.
+## How does Glint measure culture?
 
-## How does Viva Glint measure culture?
-
-Glint focuses on measuring observable group behaviors that impact important performance outcomes. This approach is the most valid way of measuring organizational culture. It's important to measure culture by asking about the group, rather than about an individual. Culture is a group phenomenon which is created and reinforced through the interactions of many. By rating various group behaviors, rather than asking individuals what they think or how they feel, the survey items are also more actionable.
+Glint focuses on measuring observable group behaviors that impact important performance outcomes. This approach is the most valid way of measuring organizational culture. It's important to measure culture by asking about the group, rather than about an individual. Culture is a group phenomenon which is created and reinforced through the interactions of many. By rating various group behaviors, rather than asking individuals what they think or how they feel, the survey items are more actionable.
 
 ## Key outcomes and goals of a culture survey program
 
-A cultural measure is intended to help leaders check on the alignment of their intended culture against the actual culture experienced by employees. The survey informs priorities and actions that require attention at the organizational level. The Viva Glint Culture Survey answers whether your company has the culture needed to be successful in the future. 
+A cultural measure helps leaders check on the alignment of their intended culture against the actual culture experienced by employees. The survey informs priorities and actions that require attention at the organizational level. The Viva Glint Culture Survey answers whether your company has the culture needed to be successful in the future. 
 
 ## What kind of organization is the Culture Survey intended for?
 
@@ -79,7 +77,39 @@ Companies that proactively manage their culture show:
 |16|Adaptability - Adapt to Change|People at [Company Name] adapt well to changes.|
 |17|Alignment - Balance Demands| People at [Company Name] balance short-term demands with long-term direction.|
 |18|Improve| What are some words to describe the aspects of your company's culture that can be improved upon?|
-|19|Strengths|What are some words to describe the aspects of your company's culture that you see as strenghts?|
+|19|Strengths|What are some words to describe the aspects of your company's culture that you see as strengths?|
+
+### Additional culture drivers to consider
+
+|Item name|Item text|
+|----------|---------|
+|eSat|How happy are you working at [Company Name]?|
+|Inclusive Leaders|Leaders at [Company Name] value different perspectives.|
+|Culture| [Company Name] has a great culture.|
+|Humanity-Respect|People at [Company Name] treat each other with respect and dignity.|
+|Inclusiveness| [Company Name] has an inclusive environment.|
+|Demonstrate Culture|People at [Company Name] demonstrate the stated culture and values at work.|
+|Collaboration-Direct Communication|People at [Company Name] interact with each other in a direct and constructive way.|
+|Integrity|People at [Company Name] behave with integrity at work.|
+|Integrity-Do What They Say|People at [Company Name] behave in a way that is consistent with what they say.|
+|Adaptability-Take Chances|People at [Company Name] behave in a way that is consistent with what they say.|
+|Collaboration-Point of View|People at [Company Name] work hard to understand others' point of view.|
+|Describe|How would you describe the culture at [Company Name] to a friend?|
+|Innovation-Culture| [Company Name] is innovative.|
+|Learning-Growth Mindset|People at [Company Name] continuously develop abilities outside their current skillset.|
+|Resilience| [Company Name] is resilient.|
+|Rewarded|What behaviors or actions get rewarded at [Company Name]?|
+|Safety| [Company Name] is a very safe place to work.|
+|Trust| [Company Name] is trustworthy.|
+|Learning-Incorporate Learning|People at [Company Name] incorporate learning into their day-to-day work.|
+|Adaptability-Change Support|People at [Company Name]> support each other in their efforts to adapt to organizational changes.|
+|Collaboration-Involve Others|People at [Company Name] get input from others when making decisions.|
+|Integrity-Equality of Ideas|People at [Company Name] judge ideas based on quality and not on who expresses them.|
+|Collaboration-Team Oriented|People at [Company Name] work in teams to get things done.|
+|Company Performance| [Company Name] is a high performing organization.|
+|Execution-Implement New Things|People at [Company Name] excel at implementing new things.|
+|Perseverance|People at [Company Name] continue to be productive during times of uncertainty or stress.|
+|Purpose-Better World|People at [Company Name] focus on making the world a better place.|
 
 ## Should our Culture Survey be combined with other Glint survey programs?
 

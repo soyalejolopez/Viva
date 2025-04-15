@@ -1,10 +1,10 @@
 ---
-ms.date: 06/30/2023
+ms.date: 04/1/2025
 title: Cross-collaboration
 description: Learn about cross-collaboration queries
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: concept-article
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
@@ -23,3 +23,5 @@ To run a query about collaboration between two individuals in your organization 
 Or, to analyze how individuals collaborate with groups, refer to [person-to-group queries](./cross-collaboration-p2g.md).
 
 You can also analyze how groups invest their time and collaborate with other groups, through [group-to-group queries](./cross-collaboration-g2g.md).
+
+> [!VIDEO 51fa3d5a-60c6-4caf-93da-ac2d42c2ebb0]

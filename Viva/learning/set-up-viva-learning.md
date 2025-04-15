@@ -4,16 +4,15 @@ ms.author: bhaswatic
 author: bhaswatic
 manager: elizapo
 ms.reviewer: chrisarnoldmsft
-ms.date: 04/19/2024
+ms.date: 03/14/2025
 audience: admin
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.service: viva-learning
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-learning
   - highpri
-  - Tier1
 ms.custom: admindeeplinkTEAMS
 ms.localizationpriority: medium
 description: Learn how to get Microsoft Viva Learning and manage it in the Teams admin center.
@@ -38,6 +37,10 @@ To set up learning content sources in Viva Learning and manage individual licens
 - [Knowledge admin](/azure/active-directory/roles/permissions-reference#knowledge-administrator)
 
 The knowledge admin is a Microsoft Entra role in the Microsoft 365 admin center that can be assigned to anyone in the organization. This role manages the organization's learning content sources. For more information, see [Microsoft Entra built-in roles](/azure/active-directory/roles/permissions-reference#knowledge-administrator) and [Overview of Microsoft Learning](overview-viva-learning.md).
+
+> [!NOTE]
+> Viva Learning doesn't support user-based permissions. Only the Microsoft 365 and Mail enabled security group (MESG) group types are supported. Viva Learning won't ingest files that don't have associated Microsoft 365 Groups or MESG permissions.
+
 
 ## Set up Viva Learning
 
@@ -69,6 +72,18 @@ To allow or block specific users in your organization from using Viva Learning, 
 ## Deploy Viva Learning to your users
 
 Viva Learning is available to users from the Microsoft Teams app store. [Learn how to add apps to Teams](https://support.microsoft.com/office/add-an-app-to-microsoft-teams-b2217706-f7ed-4e64-8e96-c413afd02f77).
+
+## Enable progress tracking for recommendations 
+
+You can enable and disable progress tracking for recommendations for your users.
+
+In the Microsoft Admin Center, go to: 
+
+1. **Settings** > **Viva** > **Viva Learning**.
+
+2. Select **Manage additional settings in Viva Learning**.
+
+3. Check or uncheck the following setting: **Allow users to track their recommended trainings.** 
 
 ## Next steps
 

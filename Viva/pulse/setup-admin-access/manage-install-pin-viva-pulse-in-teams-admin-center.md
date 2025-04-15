@@ -8,9 +8,10 @@ manager: alisaliddle
 audience: Admin
 f1.keywords: NOCSH
 ms.collection:
+ - m365initiative-viva-pulse
  - essentials-manage
-ms.date: 07/12/2023
-ms.topic: article
+ms.date: 12/19/2024
+ms.topic: how-to
 ms.service: viva-pulse
 ms.localizationpriority: medium
 search.appverid: MET150
@@ -18,7 +19,7 @@ search.appverid: MET150
 
 # Manage, install, and pin Viva Pulse in the Teams admin center
 
-The following settings are optional and are not required to be completed before users in the organization can start using Viva Pulse. You must be a Microsoft 365 Global Admin or a Teams Admin for the following tasks.
+The following settings are optional and are not required to be completed before users in the organization can start using Viva Pulse. You must be a Teams Admin for the following tasks.
 
 ## Control access to Viva Pulse
 

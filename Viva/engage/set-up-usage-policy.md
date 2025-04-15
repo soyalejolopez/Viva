@@ -1,15 +1,15 @@
 ---
-ms.date: 07/26/2023
+ms.date: 09/13/2024
 title: "Set up a Viva Engage usage policy"
 description: "Create a usage policy that users must accept before using Viva Engage."
 ms.reviewer: ethli
-ms.author: v-bvrana
+ms.author: donnabouldin
 author: Starshine89
 manager: elizapo
 audience: Admin
 f1.keywords:
 - NOCSH
-ms.topic: article
+ms.topic: how-to
 ms.service: viva-engage
 ms.localizationpriority: medium
 ms.collection:  

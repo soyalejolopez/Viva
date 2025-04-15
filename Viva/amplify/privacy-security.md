@@ -4,16 +4,15 @@ ms.author: daisyfeller
 author: daisyfell
 manager: elizapo
 ms.reviewer: smathurin
-ms.date: 09/13/2023
+ms.date: 08/21/2024
 audience: admin
-ms.topic: article
+ms.topic: concept-article
 ms.service: viva-amplify
 search.appverid: MET150
 ms.collection:
   - enabler-strategic
   - m365initiative-viva-amplify
   - highpri
-  - Tier1
   - essentials-privacy
   - essentials-security
   - essentials-compliance

@@ -1,10 +1,10 @@
 ---
-ms.date: 01/11/2023
+ms.date: 10/10/2024
 title: Access query results and modify existing queries
 description: Learn how to access query results in the advanced insights app
 author: zachminers
 ms.author: v-zachminers
-ms.topic: article
+ms.topic: how-to
 ms.localizationpriority: medium 
 ms.collection: viva-insights-advanced 
 ms.service: viva-insights
@@ -34,6 +34,8 @@ To view, download, rename, edit, delete, favorite, or clone query results, you n
 >Only the analyst who originally ran the query can edit, rename, or delete its results. Other analysts in the organization can view, favorite, and clone results.
 
 ## To use the query results page
+
+> [!VIDEO 1e8cde4f-f314-44e7-95ec-120eed5764f1]
 
 ### Results statuses
 
@@ -87,7 +89,7 @@ To access content filters, select the **+** icon to the right of the **Custom qu
 
 Then, use the dropdown menus to select your filter.
 
-:::image type="content" source="../images/query-results-select-content-filter.png" alt-text="Screenshot that shows the new content filter button selected and the Power BI templates option expanded below.":::
+:::image type="content" source="../images/query-results-select-content-filter.png" alt-text="Screenshot that shows the new content filter button selected and the Power BI templates option expanded below." lightbox="../images/query-results-select-content-filter.png":::
 
 While you can only use one content filter active at a time, you can have up to five filters available. Filters won’t carry over from one session to the next.
 
@@ -160,6 +162,9 @@ Deleting a query removes it from the results list for everyone in the organizati
 
 When you define a query, you select metrics and employee attributes. After the query runs, its results are organized into columns and rows. The column headers in the results match the attribute names and metric names that you selected while defining the query. To learn how to download these results, read on.
 
+>[!Note]
+>For queries that include Microsoft 365 Copilot metrics, "NULL" values in your results indicate employees without a Microsoft 365 Copilot license, which signifies no activity due to the absence of a license. A "0" value, on the other hand, indicates users with a license but who did not engage in any activity for the specified day, week, or month.
+
 #### Downloading and connecting to results
 
 ##### Download and import results in Excel
@@ -167,8 +172,6 @@ When you define a query, you select metrics and employee attributes. After the q
 1.	In **Query results**, next to the results you want, select the CSV icon.
 2.	Select to open and right-click the zip file, which contains a .csv version of the data, and then select **Extract All** and extract the .csv to a local folder.
 3. Open the extracted .csv file using Excel. 
-
-    Here's an example of a results file:
 
 Here's an example of a results file:
 
@@ -192,6 +195,26 @@ Here's an example of a results file:
 6.	Select **Import** under **Data Connectivity mode**, and then select **OK**. 
 7.	If you're prompted to sign in, select **Sign in**, enter your Microsoft 365 credentials, and then select **Connect**.
 8.	In the preview window, select **Load**. Optionally, select **Transform Data** to transform and shape the data in the Power Query editor before loading it into Power BI.
+
+## Manage updates to metrics used in existing queries
+
+When a metric definition changes, your existing queries that use that metric won't automatically update. You can continue to use the old definition, or update to the new one. This applies to both Microsoft-defined metrics and custom metrics created by other analysts. 
+
+Whenever you create a new query, you'll use the latest metric definition. However, your existing queries, including auto-refresh queries, will continue to use the original metric definition. This preserves the consistency and accuracy of your query results.
+
+If any of your existing queries use metrics that have changed, you'll see the status, **Success (with warning)**, and a message stating the query uses metrics with updated definitions in the query results page.
+
+To update the metric definition in your query, you have two options: edit or clone. You can find these options in the **More options** ellipses. Editing your query will overwrite the existing results with the new definition. Cloning your query will create a new query with the new definition and keep the existing results.
+
+>[!Note]
+> If you want to re-run the query without updating metric definitions, select **Re-run query** in the **More options** ellipses. When asked if you want to review the query for updated metrics select **Re-run anyway!** Selecting **Review query** will open the query setup page in edit mode.
+
+In the query setup page, use these steps to update all metrics or individual metrics in your query: 
+
+* To update all metrics, select **Update all metrics** on the banner at the top of the query setup page.
+* To update individual metrics, scroll down to **Select metrics for what you want to know about your employees**, select **Add metrics**, find the metric you want to update, select the ellipsis, and select **Update**. Close the metric selection pane to return to the query setup page.
+
+After you’ve updated the metrics used in your query, select **Run**.
 
 ## FAQs
 We've compiled answers for some questions you might run across while viewing your query results.
